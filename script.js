@@ -2,9 +2,7 @@ function startGame() {
   console.log("Game started"); // Check if the function is called
   // Hide start button and show game area
   document.getElementById('start-button').style.display = 'none';
-  console.log("Start button hidden"); // Check if the start button is hidden
   document.getElementById('game-area').style.display = 'block';
-  console.log("Game area displayed"); // Check if the game area is displayed
 }
 
 
