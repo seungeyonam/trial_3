@@ -25,7 +25,14 @@ function chooseOption2() {
 }
 
 // Event listener for Option 1 button click
-document.getElementById('option1').addEventListener('click', chooseOption1);
+document.getElementById('option1').addEventListener('click', function() {
+  console.log("Option 1 clicked");
+  chooseOption1();
+});
 
 // Event listener for Option 2 button click
-document.getElementById('option2').addEventListener('click', chooseOption2);
+document.getElementById('option2').addEventListener('click', function() {
+  console.log("Option 2 clicked");
+  chooseOption2();
+});
+
