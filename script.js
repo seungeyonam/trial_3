@@ -1,9 +1,13 @@
+// Function to handle the "Game Start" button click
 function startGame() {
-  console.log("Game started"); // Check if the function is called
-  // Hide start button and show game area
-  document.getElementById('start-button').style.display = 'none';
+  // Show the game area
   document.getElementById('game-area').style.display = 'block';
+  // Hide the "Game Start" button
+  document.getElementById('start-button').style.display = 'none';
 }
+
+// Event listener for "Game Start" button click
+document.getElementById('start-button').addEventListener('click', startGame);
 
 
 // Function to handle option 1
