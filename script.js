@@ -6,6 +6,9 @@ function startGame() {
   document.getElementById('start-button').style.display = 'none';
 }
 
+// Event listener for "Start Game" button click
+document.getElementById('start-button').addEventListener('click', startGame);
+
 // Function to handle the first button click
 function chooseOption1() {
   // Redirect the user to the next page for option 1
