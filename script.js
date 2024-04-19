@@ -6,14 +6,20 @@ function startGame() {
   document.getElementById('start-button').style.display = 'none';
 }
 
-// Event listener for "Game Start" button click
-document.getElementById('start-button').addEventListener('click', startGame);
-
-// Function to handle the "Start Game" button click
-function startGame() {
-  // Redirect the user to the next page
-  window.location.href = "next_page.html";
+// Function to handle the first button click
+function chooseOption1() {
+  // Redirect the user to the next page for option 1
+  window.location.href = "option1.html";
 }
 
-// Event listener for "Start Game" button click
-document.getElementById('start-button').addEventListener('click', startGame);
+// Function to handle the second button click
+function chooseOption2() {
+  // Redirect the user to the next page for option 2
+  window.location.href = "option2.html";
+}
+
+// Event listener for the first button click
+document.getElementById('option1').addEventListener('click', chooseOption1);
+
+// Event listener for the second button click
+document.getElementById('option2').addEventListener('click', chooseOption2);
