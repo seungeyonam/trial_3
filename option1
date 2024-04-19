@@ -11,6 +11,9 @@
     <h1>누가 우리 엄마 뽀려감?
     <p>I did</p>
     <!-- Add any additional content or functionality here specific to option 1 -->
+    </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
