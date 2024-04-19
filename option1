@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>누가 우리 엄마 뽀려감?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="option1-container">
+    <h1>누가 우리 엄마 뽀려감?
+    <p>I did</p>
+    <!-- Add any additional content or functionality here specific to option 1 -->
+  </div>
+</body>
+</html>
